@@ -17,6 +17,25 @@ a:hover{
 	font-weight: 5px;
 }
 
+.radiocontainer {
+	width: 50rem;
+	background-color: #f1f1f1;
+	display: block;
+	position: relative;
+	padding: 10px 10px 10px 50px;
+	margin-bottom: 1px;
+	cursor: pointer;
+	font-size: 18px;
+	user-select: none;
+	word-wrap: break-word;
+	color: black;
+	border-radius: 0.5rem;
+}
+
+.radiocontainer:hover {
+	background-color: white;
+}
+
 body{
 	font-family: "Space Mono", monospace;
 	background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
