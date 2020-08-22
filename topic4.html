@@ -4,7 +4,7 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>About</title>
+      <title>Topic 4</title>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <link rel="stylesheet" href="about.css">
   </head>
@@ -37,104 +37,79 @@
       </div>
   </nav>
     <div class="container">
-      <h1 class="title-1">CSS Tutorial - 1: Selectors in CSS</h1>
+      <h1 class="title-1">CSS Tutorial - 4: Overflow Property in CSS</h1>
       <div class="section">
       </br>
       <h2 class="title-2"></h2>
       </br>
       <div>
-        We can divide CSS selectors into five categories:
+        The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.
+        <br/>The overflow property has the following values:
         <ol>
             <li>
-                Simple selectors (select elements based on name, id, class)
+                visible
             </li>
             <li>
-                Combinator selectors (select elements based on a specific relationship between them)
+                hidden
             </li>
             <li>
-                Pseudo-class selectors (select elements based on a certain state)
+                scroll
             </li>
             <li>
-                Pseudo-elements selectors (select and style a part of an element)
-            </li>
-            <li>
-                Attribute selectors (select elements based on an attribute or attribute value)
+                auto
             </li>
         </ol>
         <h3 class="title-3">Examples</h3>
         <div>
-            <h4 class="title-4">1. CSS element selector</h4>
+            <h4 class="title-4">1. overflow: visible</h4>
             <div>
-                The element selector selects HTML elements based on the element name:
+                By default, the overflow is visible, meaning that it is not clipped and it renders outside the element's box:
             </div>
             <div class="code">
                 <pre>
-                    p {
-                        text-align: center;
-                        color: red;
-                    }
-                </pre>
-            </div>
-        </div>
-        <div>
-            <h4 class="title-4">2. CSS id Selector</h4>
-            <div>
-                The id selector uses the id attribute of an HTML element to select a specific element.            </div>
-            <div class="code">
-                <pre>
-                    #para1 {
-                        text-align: center;
-                        color: red;
-                    }
-                </pre>
-            </div>
-        </div>
-        <div>
-            <h4 class="title-4">3. CSS class Selector</h4>
-            <div>
-                The class selector selects HTML elements with a specific class attribute.            <div class="code">
-                <pre>
-                    .center {
-                        text-align: center;
-                        color: red;
+                    div {
+                        overflow: visible;
                       }
                 </pre>
             </div>
         </div>
         <div>
-            <h4 class="title-4">4. CSS Universal Selector</h4>
+            <h4 class="title-4">2. overflow: hidden</h4>
             <div>
-                The universal selector (*) selects all HTML elements on the page.            <div class="code">
+                With the hidden value, the overflow is clipped, and the rest of the content is hidden:
+            </div>
+            <div class="code">
                 <pre>
-                    * {
-                        text-align: center;
-                        color: blue;
-                    }
+                    div {
+                        overflow: hidden;
+                      }
                 </pre>
             </div>
         </div>
         <div>
-            <h4 class="title-4">5. CSS Grouping Selector</h4>
+            <h4 class="title-4">3. overflow: scroll</h4>
             <div>
-                The grouping selector selects all the HTML elements with the same style definitions.            <div class="code">
+                Setting the value to scroll, the overflow is clipped and a scrollbar is added to scroll inside the box. Note that this will add a scrollbar both horizontally and vertically (even if you do not need it):            <div class="code">
                 <pre>
-                    h1 {
-                        text-align: center;
-                        color: red;
-                    }
-                    
-                    h2 {
-                        text-align: center;
-                        color: red;
-                    }
-                    
-                    p {
-                        text-align: center;
-                        color: red;
-                    }
+                    div {
+                        overflow: scroll;
+                      }
                 </pre>
             </div>
         </div>
+        <div>
+            <h4 class="title-4">4. overflow: auto</h4>
+            <div>
+                The auto value is similar to scroll, but it adds scrollbars only when necessary:            <div class="code">
+                <pre>
+                    div {
+                        overflow: auto;
+                      }
+                </pre>
+            </div>
+        </div>
+        <div>
+
         
         
     
