@@ -37,101 +37,94 @@
       </div>
   </nav>
     <div class="container">
-      <h1 class="title-1">CSS Tutorial - 1: Selectors in CSS</h1>
+      <h1 class="title-1">CSS Tutorial - 3: Backgrounds in CSS</h1>
       <div class="section">
       </br>
       <h2 class="title-2"></h2>
       </br>
       <div>
-        We can divide CSS selectors into five categories:
+        The CSS background properties are used to define the background effects for elements.
+        <br/>
+        In these lesson, you will learn about the following CSS background properties:
         <ol>
             <li>
-                Simple selectors (select elements based on name, id, class)
+                background-color
             </li>
             <li>
-                Combinator selectors (select elements based on a specific relationship between them)
+                background-image
             </li>
             <li>
-                Pseudo-class selectors (select elements based on a certain state)
+                background-repeat
             </li>
             <li>
-                Pseudo-elements selectors (select and style a part of an element)
-            </li>
-            <li>
-                Attribute selectors (select elements based on an attribute or attribute value)
+                background-position
             </li>
         </ol>
         <h3 class="title-3">Examples</h3>
         <div>
-            <h4 class="title-4">1. CSS element selector</h4>
+            <h4 class="title-4">1. background-color</h4>
             <div>
-                The element selector selects HTML elements based on the element name:
+                The background-color property specifies the background color of an element.
+                <br/>The background color of different elements can be set like this:
             </div>
             <div class="code">
                 <pre>
+                    body {
+                        background-color: lightblue;
+                      }
+                    h1 {
+                        background-color: green;
+                      }
+                      
+                    div {
+                        background-color: lightblue;
+                      }
+                      
                     p {
-                        text-align: center;
-                        color: red;
-                    }
-                </pre>
-            </div>
-        </div>
-        <div>
-            <h4 class="title-4">2. CSS id Selector</h4>
-            <div>
-                The id selector uses the id attribute of an HTML element to select a specific element.            </div>
-            <div class="code">
-                <pre>
-                    #para1 {
-                        text-align: center;
-                        color: red;
-                    }
-                </pre>
-            </div>
-        </div>
-        <div>
-            <h4 class="title-4">3. CSS class Selector</h4>
-            <div>
-                The class selector selects HTML elements with a specific class attribute.            <div class="code">
-                <pre>
-                    .center {
-                        text-align: center;
-                        color: red;
+                        background-color: yellow;
                       }
                 </pre>
             </div>
         </div>
         <div>
-            <h4 class="title-4">4. CSS Universal Selector</h4>
+            <h4 class="title-4">2. background-image</h4>
             <div>
-                The universal selector (*) selects all HTML elements on the page.            <div class="code">
+                The background-image property specifies an image to use as the background of an element.            </div>
+            <div class="code">
                 <pre>
-                    * {
-                        text-align: center;
-                        color: blue;
-                    }
+                    body {
+                        background-image: url("paper.gif");
+                      }
                 </pre>
             </div>
         </div>
         <div>
-            <h4 class="title-4">5. CSS Grouping Selector</h4>
+            <h4 class="title-4">3. background-repeat</h4>
             <div>
-                The grouping selector selects all the HTML elements with the same style definitions.            <div class="code">
+                By default, the background-image property repeats an image both horizontally and vertically. 
+                <br/>To repeat an image horizontally, set background-repeat: repeat-x.  
+                <br/>To repeat an image vertically, set background-repeat: repeat-y.        
+             <div class="code">
                 <pre>
-                    h1 {
-                        text-align: center;
-                        color: red;
-                    }
-                    
-                    h2 {
-                        text-align: center;
-                        color: red;
-                    }
-                    
-                    p {
-                        text-align: center;
-                        color: red;
-                    }
+                    body {
+                        background-image: url("gradient_bg.png");
+                        background-repeat: repeat-x;
+                      }
+                </pre>
+            </div>
+        </div>
+        <div>
+            <h4 class="title-4">4. background-position</h4>
+            <div>
+                The background-position property is used to specify the position of the background image.
+                <br/>Position the background image in the top-right corner: 
+            <div class="code">
+                <pre>
+                    body {
+                        background-image: url("img_tree.png");
+                        background-repeat: no-repeat;
+                        background-position: right top;
+                      }
                 </pre>
             </div>
         </div>
