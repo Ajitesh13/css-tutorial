@@ -6,7 +6,7 @@ a:hover{
 }
 body{
 	font-family: "Space Mono", monospace;
-	background-image: url("public/background.jpeg");
+	background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
 	background-position: center;
 	background-size: 100%;
 	background-repeat: repeat;
@@ -74,25 +74,23 @@ ul{
 	color:#ff00aa;
 }
 ul.animated-thank-you { 
-
-                 width:100%;
-                 max-width:1000px;
-                 margin:0 auto;
-                 font-weight:1000;
-                 list-style-type: none;
-                 padding-top: 0;
-                 padding-bottom: 420px;
+	width:100%;
+	max-width:1000px;
+	margin:0 auto;
+	font-weight:1000;
+	list-style-type: none;
+	padding-top: 2rem;
+	padding-bottom: 420px;
 }
 ul.animated-thank-you li { 
-                 float:left;
-                 display:none;
-                 height:130px;
-                 font-family: "Space Mono", monospace;
-                 color: white;
-                 letter-spacing: 4px;
-                 font-size:  55px;
-				 padding-top: 10px;
-                 
+	float: none;
+	display:none;
+	height:130px;
+	font-family: "Space Mono", monospace;
+	color: white;
+	letter-spacing: 4px;
+	font-size:  55px;
+	padding-top: 3rem;
 }  
 ul.animated-thank-you li.hacktober{
 	font-family: 'Mansalva', cursive;

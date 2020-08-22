@@ -4,6 +4,19 @@ a{
 a:hover{
 	color: #ff00aa;
 }
+
+.code {
+	width: auto;
+	background-color: #fff;
+	padding: 8px 12px;
+	word-wrap: break-word;
+	margin-top: 16px !important;
+	margin-bottom: 16px !important;
+	font-size: 17px;
+	width: 50em;
+	font-weight: 100;
+}
+
 body{
 	font-family: "Space Mono", monospace;
 	background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
@@ -81,6 +94,7 @@ ul{
 	color:white;
 	text-align: center;
 }
+
 .container{
 	font-family: 'Space Mono', monospace;
 	flex-grow:1;
@@ -116,11 +130,10 @@ body.section{
 }
 .title-4{
 	font-family: 'Space Mono', monospace;
-	font-size:1.5rem;
+	font-size: 2rem;
 	font-weight: bold;
-    text-align: center;
-    margin-left:1.25rem;
-
+	margin-left: none;
+	color: white;
 }
 .title-5{
 	font-family: 'Space Mono', monospace;
