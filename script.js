@@ -16,11 +16,11 @@ jQuery(function(){
                         'display':'inline-block',
                     });
                     $( lists ).each(function( i ) {
-                        $(this).delay( i * 700 ).animate({ 
+                        $(this).delay( i * 300 ).animate({ 
                             'opacity': 1
                         });
                     });
-                    setTimeout(animateThankYou, 7000);
+                    setTimeout(animateThankYou, 3000);
                 };
 
             animateThankYou();
