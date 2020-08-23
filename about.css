@@ -71,6 +71,7 @@ ul{
 	height: 50px;
 	font-size: 20px;
 	padding-bottom: 30px;
+	justify-content: center;
 }
 .navbar-nav>li>a:hover{
 	color: white !important;
@@ -86,9 +87,10 @@ ul{
 .container-head{
 	width: auto;
 	padding: auto;
-	padding-left: 30px;
+	padding-left: 90px;
 	padding-right: 0;
 	padding-bottom: 0;
+
 }
 .title-1{
 	font-family: 'Space Mono', monospace;

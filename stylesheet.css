@@ -21,6 +21,10 @@ ul{
 
 #image{
 	padding: 30px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
 .image1{
 	padding: 30px;
@@ -28,7 +32,7 @@ ul{
 	width: 200px;
 }
 #image:hover{
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 .list-item{
 	font-size: 20px; 
@@ -47,16 +51,19 @@ ul{
 .navbar-default{
 	border: 0;
 	padding-bottom: 0;
+	background-color: transparent;
 }
-.navbar-inner{
+/*.navbar-inner{
     background-color: transparent;
-}
+}*/
 .container-head{
+
 	width: auto;
 	padding: auto;
-	padding-left: 30px;
+	padding-left: 90px;
 	padding-right: 0;
 	padding-bottom: 0;
+	
 }
 
 .container{
@@ -80,7 +87,7 @@ ul.animated-thank-you {
 	font-weight:1000;
 	list-style-type: none;
 	padding-top: 2rem;
-	padding-bottom: 420px;
+	padding-bottom: 60px;
 }
 ul.animated-thank-you li { 
 	float: none;
