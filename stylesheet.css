@@ -6,7 +6,7 @@ a:hover{
 }
 body{
 	font-family: "Space Mono", monospace;
-	background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
+	background-image: url("Screenshot from 2019-10-02 09-04-03.png");
 	background-position: center;
 	background-size: 100%;
 	background-repeat: repeat;
@@ -135,7 +135,7 @@ body.section{
 	}
 	body{
 		font-family: "Space Mono", monospace;
-		background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
+		background-image: url("Screenshot from 2019-10-02 09-04-03.png");
 		background-position: center;
 		background-repeat: repeat;
 		color: #99a1b3;	
