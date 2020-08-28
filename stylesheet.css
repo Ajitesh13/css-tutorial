@@ -100,7 +100,7 @@ ul.animated-thank-you li {
 	padding-top: 3rem;
 	padding-right: 5rem;
 }  
-ul.animated-thank-you li.hacktober{
+ul.animated-thank-you li.index{
 	font-family: 'Mansalva', cursive;
 	font-size: 100px;
 	color: #ff00aa;
@@ -141,7 +141,7 @@ body.section{
 		color: #99a1b3;	
 		font-size: 20px;
 	}
-	ul.animated-thank-you li.hacktober {
+	ul.animated-thank-you li.index {
 		padding-top: 0;
 		font-size: 40px;
 	}
