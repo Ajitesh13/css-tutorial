@@ -17,6 +17,17 @@ a:hover{
 	font-weight: 5px;
 }
 
+.output	{
+	width: auto;
+	background-color: #fff;
+	padding: 8px 12px;
+	word-wrap: break-word;
+	margin-top: 16px !important;
+	margin-bottom: 16px !important;
+	width: 50em;
+	font-weight: 5px;
+}
+
 .radiocontainer {
 	width: 50rem;
 	background-color: #f1f1f1;
