@@ -184,4 +184,55 @@ body.section{
   }
   
 
+a.l1:link {
+	background-color: yellow;
+  }
+  
+a.l1:visited {
+	background-color: cyan;
+  }
+  
+a.l1:hover {
+	background-color: lightgreen;
+  }
+  
+a.l1:active {
+	background-color: hotpink;
+  } 
 
+a.l2:link {
+background-color: yellow;
+}
+
+a.l2:visited {
+background-color: cyan;
+}
+
+a.l2:hover {
+background-color: lightgreen;
+}
+
+a.l2:active {
+background-color: hotpink;
+}
+
+a.l3:link, a:visited {
+	background-color: #f44336;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+  }
+  
+a.l3:hover, a:active {
+background-color: red;
+}
+
+a.one:link {color:#ff0000;}
+a.one:visited {color:#0000ff;}
+a.one:hover {color:#ffcc00;}
+
+a.two:link {color:#ff0000;}
+a.two:visited {color:#0000ff;}
+a.two:hover {font-family:monospace;}
